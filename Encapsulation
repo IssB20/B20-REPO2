@@ -1,0 +1,13 @@
+Encapsulation
+
+1-What's Encapsulation and what are the benefits of using encapsulation? 
+2-How to apply getters and setters to a private constant (final) data? 
+
+Encapsulation is one of OOP (Object Oriented Programing) Principle and it is used to hide the data
+
+so that is the benefit of using Encapsulation by giving a private access modifier to a any class member like 
+variables , methods and class  except for the Super class it cannot be private the result is  that private  member cannot be accessed outside its class.
+the only way to access a private member is by using getter and setter method those methods cannot be private as well so we can call them outside the class or in different package and be able to set the private member by setter method and be able to get its value by the getter method.
+
+if the private variable is constant it need to be initialized right away so  thats mean it is final and we cannot modify it. so we cannot apply the  setter method in order to set it because  it is already set and it's value is final.
+we can only read its value by using the getter method. 
